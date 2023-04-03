@@ -1,0 +1,80 @@
+.datepicker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 24px; */
+}
+
+.arrow {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.arrow:hover {
+  background-color: #ee5656;
+}
+/* .date {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+.date {
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #e5e5e5eb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  font-family: "Arial", sans-serif;
+  /* font-weight: bold; */
+  /* margin: 10px; */
+}
+
+.date:hover {
+  background-color: #61ed6f;
+}
+
+.selected {
+  border: 2px solid #2f9802;
+  border-radius: 10px;
+  color: green;
+}
+.selected .date {
+  background-color: #e4ffd9;
+}
+
+/* .selected:hover {
+  background-color: #0077ff;
+} */
+
+/* .selected .month {
+  font-size: 24px;
+}
+
+.selected .day {
+  font-size: 40px;
+}
+
+.selected .year {
+  font-size: 24px;
+} */
